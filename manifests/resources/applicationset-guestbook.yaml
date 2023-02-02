@@ -20,7 +20,7 @@ spec:
         path: guestbook
       destination:
         server: '{{.url}}'
-        namespace: gmuselli
+        namespace: argocd
       syncPolicy:
         automated:
           prune: true
